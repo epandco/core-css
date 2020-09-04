@@ -1,0 +1,13 @@
+# Build output
+/*.scss
+build
+
+# npm
+node_modules
+
+# IDE
+.vscode
+.idea
+
+# macOS
+.DS_Store
