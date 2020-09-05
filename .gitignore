@@ -1,9 +1,9 @@
 # Build output
+/build.css
 /index.scss
 /base.scss
 /utilities
 /mixins
-/build
 
 # npm
 node_modules

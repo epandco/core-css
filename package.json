@@ -6,11 +6,11 @@
   "repository": "epandco/core-css",
   "license": "MIT",
   "files": [
+    "/build.css",
     "/index.scss",
     "/base.scss",
     "/utilities",
-    "/mixins",
-    "/build"
+    "/mixins"
   ],
   "scripts": {
     "build": "node ./scripts/build.js"
