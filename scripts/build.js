@@ -17,5 +17,5 @@ async function main() {
 }
 
 main()
-  .then(() => console.log('Build complete'))
-  .catch((error) => console.log(`Error: ${error.message}`));
+  .then(() => console.log('\nBuild complete\n'))
+  .catch((error) => console.error(`\nError: ${error.message}\n`));
