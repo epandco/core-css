@@ -1,0 +1,16 @@
+# Build output
+/build.css
+/index.scss
+/base.scss
+/utilities
+/mixins
+
+# npm
+node_modules
+
+# IDE
+.vscode
+.idea
+
+# macOS
+.DS_Store

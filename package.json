@@ -1,0 +1,25 @@
+{
+  "name": "@epandco/core-css",
+  "version": "1.0.0",
+  "description": "",
+  "author": "EP+Co",
+  "repository": "epandco/core-css",
+  "license": "MIT",
+  "files": [
+    "/build.css",
+    "/index.scss",
+    "/base.scss",
+    "/utilities",
+    "/mixins"
+  ],
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "clean": "node ./scripts/clean.js",
+    "prepublishOnly": "npm run build",
+    "postpublish": "npm run clean"
+  },
+  "devDependencies": {
+    "fs-extra": "^9.0.1",
+    "sass": "^1.26.10"
+  }
+}
