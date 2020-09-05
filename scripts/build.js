@@ -6,7 +6,7 @@ async function main() {
   const cwd = process.cwd();
   const src = path.join(cwd, 'src');
 
-  await fs.copy(src, process.cwd());
+  await fs.copy(src, cwd);
 
   const { css } = sass.renderSync({
     file: path.join(src, 'index.scss'),
