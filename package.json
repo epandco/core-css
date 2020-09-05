@@ -6,13 +6,17 @@
   "repository": "epandco/core-css",
   "license": "MIT",
   "files": [
-    "/*.scss",
-    "build"
+    "/index.scss",
+    "/base.scss",
+    "/utilities",
+    "/mixins",
+    "/build"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "fs-extra": "^9.0.1",
     "sass": "^1.26.10"
   }
 }
